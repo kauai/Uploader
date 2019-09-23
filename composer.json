@@ -1,0 +1,24 @@
+{
+    "name": "thiag/datalayer002",
+    "authors": [
+        {
+            "name": "Thiago kauai",
+            "email": "html5ephp@gmail.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload":{
+        "psr-4":{
+            "Source\\":"source/"
+        },
+        "files":[
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/uploader": "^1.0",
+        "symfony/var-dumper": "^4.3"
+    }
+}
